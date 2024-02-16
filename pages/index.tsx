@@ -1,5 +1,5 @@
-import MobileNav from "@/Components/MobileNav";
-import Nav from "@/Components/Nav";
+import MobileNav from "@/components/MobileNav";
+import Nav from "@/components/Nav";
 import React, { useState } from "react";
 
 const HomePage = () => {
