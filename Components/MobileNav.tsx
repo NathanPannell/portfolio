@@ -20,15 +20,15 @@ const MobileNav = ({ nav, closeNav }: Props) => {
         <a className="nav-link-mobile" href="#about" onClick={closeNav}>
           ABOUT
         </a>
-        <a className="nav-link-mobile" href="#services" onClick={closeNav}>
-          SERVICES
+        <a className="nav-link-mobile" href="#skills" onClick={closeNav}>
+          SKILLS
         </a>
         <a className="nav-link-mobile" href="#projects" onClick={closeNav}>
           PROJECTS
         </a>
-        <a className="nav-link-mobile" href="#blog" onClick={closeNav}>
+        {/* <a className="nav-link-mobile" href="#blog" onClick={closeNav}>
           BLOG
-        </a>
+        </a> */}
         <a className="nav-link-mobile" href="#contact" onClick={closeNav}>
           CONTACT
         </a>

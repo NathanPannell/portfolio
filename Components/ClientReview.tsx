@@ -3,12 +3,13 @@ import Image from "next/image";
 import React from "react";
 
 interface Props {
+  image: string;
   name: string;
   role: string;
-  image: string;
+  review: string;
 }
 
-const ClientReview = ({ name, role, image }: Props) => {
+const ClientReview = ({ image, name, role, review }: Props) => {
   return (
     <div className="flex flex-col text-center justify-center">
       <Image
@@ -31,9 +32,7 @@ const ClientReview = ({ name, role, image }: Props) => {
         {role}
       </p>
       <p className="text-[16px] text-white opacity-50 w-[90%] md:w-[50%] mx-auto">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
-        quisquam dolor illum omnis repellat asperiores, tempore aut placeat,
-        veniam error atque eligendi, excepturi ad ratione.
+        {review}
       </p>
     </div>
   );

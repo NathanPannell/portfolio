@@ -34,24 +34,16 @@ const TestimonialSlider = () => {
       itemClass="item"
     >
       <ClientReview
-        image="/images/logo.png"
-        name="Nathan Pannell"
-        role="Web Developer"
+        image="/images/melany.png"
+        name="Melany Rivera"
+        role="Assistant Controller - AMJ Campbell Vancouver"
+        review="As Nathan's supervisor for 2 co-op terms, I can say that he was an invaluable asset in helping improve automation within our department. He is a self-motivated worker and has a keen awareness for optimizing and streamlining processes and solving problems."
       />
       <ClientReview
-        image="/images/logo.png"
-        name="Nathan Pannell"
-        role="Web Developer"
-      />
-      <ClientReview
-        image="/images/logo.png"
-        name="Nathan Pannell"
-        role="Web Developer"
-      />
-      <ClientReview
-        image="/images/logo.png"
-        name="Nathan Pannell"
-        role="Web Developer"
+        image="/images/carroll.png"
+        name="Carroll Lefebvre"
+        role="President - The Sidekick Players Club"
+        review="Nathan exceeded our expectations in creating a modern website that helps our marketing efforts. His expertise and attention to detail have enhanced our online presence, making our message more accessible and engaging to our audience. We're grateful for his contribution to our team."
       />
     </Carousel>
   );

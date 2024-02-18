@@ -1,4 +1,3 @@
-import About from "@/Components/About";
 import Blog from "@/Components/Blog";
 import Footer from "@/Components/Footer";
 import Hero from "@/Components/Hero";
@@ -11,6 +10,8 @@ import Testimonials from "@/Components/Testimonials";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import About1 from "@/Components/About1";
+import About2 from "@/Components/About2";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -52,23 +53,18 @@ const HomePage = () => {
 
         <div className="relative z-[30]">
           <section id="about">
-            <About />
-          </section>
-          <section id="services">
-            <Services />
+            <About1 />
+            <About2 />
           </section>
           <section id="skills">
+            <Services />
             <Skills />
           </section>
           <section id="projects">
             <Projects />
           </section>
-          <section id="Testimonials">
-            <Testimonials />
-          </section>
-          <section id="blog">
-            <Blog />
-          </section>
+          <Testimonials />
+          {/* <Blog /> */}
           <section id="contact">
             <Footer />
           </section>
