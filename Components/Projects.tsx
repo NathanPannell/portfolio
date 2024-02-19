@@ -8,66 +8,69 @@ const Projects = () => {
         Pro<span className="text-yellow-400">jects</span>
       </h1>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
-        <div data-aos="fade-up">
+        <a
+          href="https://github.com/uvicaiclub/WildfireManagementRL"
+          data-aos="fade-up"
+        >
+          <p className="text-white text-center uppercase font-semibold pb-4 md:pb-0">
+            Wildfire Simulation
+          </p>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/placeholder.png"
+              src="/images/wildfire.gif"
               alt="portfolio"
               layout="fill"
               className="object-contain"
             />
           </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="300">
+        </a>
+        <a
+          href="https://uttt-visual.vercel.app"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <p className="text-white text-center uppercase font-semibold pb-4 md:pb-0">
+            Ultimate Tic-Tac-Toe
+          </p>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/placeholder.png"
+              src="/images/uttt.gif"
               alt="portfolio"
               layout="fill"
               className="object-contain"
             />
           </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="500">
+        </a>
+        <a
+          href="https://nathanpannell.github.io/virtual-cube/cube.html"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <p className="text-white text-center uppercase font-semibold pb-4 md:pb-0">
+            Virtual Rubik&#39;s Cube
+          </p>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/placeholder.png"
+              src="/images/cube.gif"
               alt="portfolio"
               layout="fill"
               className="object-contain"
             />
           </div>
-        </div>
-        <div data-aos="fade-up">
+        </a>
+        <a href="https://sidekickplayers.ca" data-aos="fade-up">
+          <p className="text-white text-center uppercase font-semibold pb-4 md:pb-0">
+            Company Website
+          </p>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/placeholder.png"
+              src="/images/sidekick.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
             />
           </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="300">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/placeholder.png"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div data-aos="fade-up" data-aos-delay="500">
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/placeholder.png"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
+        </a>
       </div>
     </div>
   );

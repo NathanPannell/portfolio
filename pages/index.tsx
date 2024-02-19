@@ -57,13 +57,13 @@ const HomePage = () => {
             <About2 />
           </section>
           <section id="skills">
-            <Services />
+            {/* <Services /> */}
             <Skills />
           </section>
           <section id="projects">
             <Projects />
           </section>
-          <Testimonials />
+          {/* <Testimonials /> */}
           {/* <Blog /> */}
           <section id="contact">
             <Footer />

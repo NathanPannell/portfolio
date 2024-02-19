@@ -9,10 +9,10 @@ import React from "react";
 const About2 = () => {
   return (
     <div className="bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]">
-      <div className="grid grid-cols-1 xl:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div
           data-aos="fade-right"
-          className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative hidden xl:block"
+          className="xl:w-[500px] xl:h-[500px] mx-auto md:mx-0 mt-[2rem] xl:mt-0  w-[300px] h-[300px] relative"
         >
           <Image
             src="/images/logo.png"
@@ -33,7 +33,7 @@ const About2 = () => {
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">
-              As a resident of Vancouver and Victoria, BC's nature is
+              As a resident of Vancouver and Victoria, BC&#39;s nature is
               particularly precious to me. I have worked with the UVic AI club
               to develop a wildfire spread simulation and reinforcement learning
               agent to contribute to a novel field of AI research.

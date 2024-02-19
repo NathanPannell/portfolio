@@ -9,7 +9,7 @@ import React from "react";
 const About1 = () => {
   return (
     <div className="bg-[#121121] pb-[3rem] pt-[4rem] md:pt-[8rem]">
-      <div className="grid grid-cols-1 xl:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
         <div>
           <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
             ABOUT ME
@@ -23,7 +23,7 @@ const About1 = () => {
               Problem solving has long been my favourite aspect of computer
               science and related work. This extends to model fitting and tuning
               in the field of AI, meeting client requirements in an agile
-              environment, or mastering the Rubik's cube!
+              environment, or mastering the Rubik&#39;s cube!
             </p>
           </div>
 
@@ -36,7 +36,7 @@ const About1 = () => {
         </div>
         <div
           data-aos="fade-left"
-          className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative hidden xl:block"
+          className="xl:w-[600px] xl:h-[600px] mx-auto md:mx-0 mt-[2rem] xl:mt-0  w-[450px] h-[450px] relative hidden lg:block"
         >
           <Image
             src="/images/cubeman.png"

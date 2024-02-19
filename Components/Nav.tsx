@@ -1,4 +1,5 @@
 import { Bars3Icon } from "@heroicons/react/16/solid";
+import Link from "next/link";
 import React from "react";
 
 interface Props {
@@ -9,12 +10,12 @@ const Nav = ({ openNav }: Props) => {
   return (
     <div className="w-[100%] fixed z-[100] bottom-0 md:top-0 h-[12vh] bg-[#141c27] shadow-md">
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
-        <a
+        <Link
           href="/"
-          className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold"
+          className="flex-[0.4] cursor-pointer text-[3rem] text-white font-bold"
         >
           N<span className="text-yellow-300">P</span>
-        </a>
+        </Link>
         <a className="nav-link" href="#home">
           HOME
         </a>
@@ -34,7 +35,7 @@ const Nav = ({ openNav }: Props) => {
           CONTACT
         </a>
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
+          <Bars3Icon className="w-[3rem] md:hidden h-[3rem] cursor-pointer text-yellow-300" />
         </div>
       </div>
     </div>
