@@ -25,7 +25,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="mt-0 md:mt-[12vh] h-[88vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+    <div className="mt-0 md:mt-[12vh] hero-height bg-[url('/images/banner.jpg')] bg-cover bg-center">
       <Particle />
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
