@@ -25,12 +25,12 @@ const Projects = () => {
           </div>
         </a>
         <a
-          href="https://uttt-visual.vercel.app"
+          href="https://www.linkedin.com/feed/update/urn:li:activity:7162925129960816640/"
           data-aos="fade-up"
           data-aos-delay="300"
         >
           <p className="text-white text-center uppercase font-semibold pb-4 md:pb-0">
-            Ultimate Tic-Tac-Toe
+            UVic AI 2024 Hackathon
           </p>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
@@ -58,9 +58,9 @@ const Projects = () => {
             />
           </div>
         </a>
-        <a href="https://sidekickplayers.ca" data-aos="fade-up">
+        {/* <a href="https://sidekickplayers.ca" data-aos="fade-up">
           <p className="text-white text-center uppercase font-semibold pb-4 md:pb-0">
-            Company Website
+            <span className="italic">The Sidekick Players</span> Website
           </p>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
@@ -70,7 +70,7 @@ const Projects = () => {
               className="object-contain"
             />
           </div>
-        </a>
+        </a> */}
       </div>
     </div>
   );
