@@ -21,12 +21,12 @@ const Skills = () => {
             body="This role includes a broad range of application areas from modern, custom websites with React and Tailwind, maintenance of legacy Wordpress sites, or simpler projects with JavaScript, JQuery, HTML, and CSS."
           />
           <SkillsLanguage
-            skill1="JavaScript"
-            skill2="React"
-            skill3="Tailwind / CSS"
-            level1="w-[70%]"
-            level2="w-[60%]"
-            level3="w-[50%]"
+            skill1="Python"
+            skill2="Java"
+            skill3="JavaScript"
+            level1="w-[90%]"
+            level2="w-[70%]"
+            level3="w-[60%]"
           />
         </div>
         <div>
@@ -41,12 +41,12 @@ const Skills = () => {
             body="In this role, I learned about how business finances work including creating invoices and managing payables. Significant attention to detail is required when working with sensitive financial data."
           />
           <SkillsLanguage
-            skill1="Excel"
-            skill2="Python"
-            skill3="SQL"
-            level1="w-[90%]"
-            level2="w-[80%]"
-            level3="w-[50%]"
+            skill1="Power BI"
+            skill2="SQL"
+            skill3="React"
+            level1="w-[80%]"
+            level2="w-[70%]"
+            level3="w-[60%]"
           />
         </div>
       </div>
