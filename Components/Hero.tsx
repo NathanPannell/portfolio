@@ -34,10 +34,9 @@ const Hero = () => {
           </h1>
           <TextEffect />
           <p className="my-[2rem] text-[18px] text-white opacity-80">
-            I am a third year Computer Science student at the University of
-            Victoria with experience in Web Development and Automation. I am
-            actively seeking out summer internships for 2024 in Vancouver and
-            Victoria BC.
+            I am a fourth year Computer Science student at the University of
+            Victoria with experience in Business Process Optimization and Data Analysis. I am
+            actively seeking out summer internships for 2025 in Vancouver, BC.
             <br />
             Check out my resume below 👇.
           </p>
